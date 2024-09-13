@@ -2,7 +2,7 @@ export {};
 
 // 変数の型注釈
 let age: number = 20;
-const gender: string = "さおり";
+const gender: string = "female";
 
 // age = "30"; // error: Type 'string' is not assignable to type 'number'.
 
