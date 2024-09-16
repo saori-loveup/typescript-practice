@@ -1,11 +1,12 @@
+"use strict";
 // constを使用した変数宣言
-var constX = 1; // グローバルスコープ
+const constX = 1; // グローバルスコープ
 if (true) {
-    var constY = 2; // ブロックスコープ
+    const constY = 2; // ブロックスコープ
 }
 function testconst() {
     //const constZ; // error: 初期値の設定が必要
-    var constZ = 3; // ブロックスコープ
+    const constZ = 3; // ブロックスコープ
     //constX = 10; // error: 再代入不可
     console.log(constX); // 1（グローバルスコープなので参照できる）
     //console.log(constY); // error: 別ブロックで定義された変数は参照できない

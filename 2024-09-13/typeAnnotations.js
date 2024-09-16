@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 // 変数の型注釈
-var age = 20;
-var gender = "female";
+let age = 20;
+const gender = "female";
 // age = "30"; // error: Type 'string' is not assignable to type 'number'.
 // 関数の型注釈
 function test(a, b) {

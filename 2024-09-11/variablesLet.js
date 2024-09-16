@@ -1,10 +1,11 @@
+"use strict";
 // letを使用した変数宣言
-var letX = 1; // グローバルスコープ
+let letX = 1; // グローバルスコープ
 if (true) {
-    var letY = 2; // ブロックスコープ
+    let letY = 2; // ブロックスコープ
 }
 function testlet() {
-    var letZ; // 関数スコープ、初期値なし
+    let letZ; // 関数スコープ、初期値なし
     letX = 10; // 再代入
     console.log(letX); // 10（グローバルスコープなので参照できる）
     //console.log(letY); // error: 別ブロックで定義された変数は参照できない

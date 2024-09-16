@@ -1,3 +1,4 @@
+"use strict";
 // varを使用した変数宣言
 var varX = 1; // グローバルスコープ
 if (true) {

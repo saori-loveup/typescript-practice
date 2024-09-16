@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var age = 20; // 型推論で変数"age"はNumberとして認識される
+let age = 20; // 型推論で変数"age"はNumberとして認識される
 //age = "30"; // error: Type 'string' is not assignable to type 'number'.
 age = 30; // 代入する値がNumberなのでOK
-var gender; // 初期値が設定されていない場合、any型と推論される
+let gender; // 初期値が設定されていない場合、any型と推論される
 gender = "female"; // OK
 gender = 1; // OK
 function test(a, b) {
