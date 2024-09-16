@@ -17,4 +17,4 @@ console.log(map.get("key1")); // value1
 // 要素の値変更
 map.set("key1", "値1");
 console.log(map.size); // 1
-console.log(map.get("key1")); // value1
+console.log(map.get("key1")); // 値1
