@@ -3,7 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 let test = 123;
 test = 123; // OK
 test = "test"; //OK
-let CallbackFunction = function (value) {
+let CallbackFunction;
+CallbackFunction = function (value) {
     return value.length > 5;
 };
 console.log(CallbackFunction("test")); // false
