@@ -105,4 +105,4 @@ const person2 = new Person2("Meg", "Tohmas", 2000);
 console.log(person2); // Person2 { firstName: 'Meg', lastName: 'Tohmas', _birthYear: 2000 }
 //person2.birthYear = 2025; // Error: 不正な年です
 person2.birthYear = 2001;
-console.log(person2);
+console.log(person2); // Person2 { firstName: 'Meg', lastName: 'Tohmas', _birthYear: 2001 }
